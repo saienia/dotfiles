@@ -43,6 +43,7 @@ URL_lf = chromium-browser http://www.last.fm/search?q='%s'
 URL_df = chromium-browser http://www.bom.gov.au/nsw/forecasts/dubbo.shtml
 URL_dd = chromium-browser http://reg.bom.gov.au/products/IDN60801/IDN60801.95719.shtml
 URL_dm = chromium-browser http://reg.bom.gov.au/climate/dwo/IDCJDW2041.latest.shtml
+URL_dr = chromium-browser http://www.bom.gov.au/products/IDR691.loop.shtml#skip 
 URL_dc = chromium-browser http://readingcinemas.com.au/locations/theatre/dubbo
 URL_bg = chromium-browser http://boardgamegeek.com/
 URL_bb = chromium-browser http://boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q='%s'
