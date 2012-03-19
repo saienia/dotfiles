@@ -52,6 +52,7 @@ URL_bd = chromium-browser http://www.bookdepository.co.uk/search?searchTerm='%s'
 URL_lfme = chromium-browser http://www.last.fm/user/saienia
 URL_grme = chromium-browser http://www.goodreads.com/user/show/7705297-saienia
 URL_grs = chromium-browser http://www.goodreads.com/search?&q='%s'
+URL_bk = chromium-browser http://www.booko.com.au/books/search?&q='%s'
 
 
 
