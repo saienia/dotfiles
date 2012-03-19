@@ -53,10 +53,10 @@ URL_lfme = chromium-browser http://www.last.fm/user/saienia
 URL_grme = chromium-browser http://www.goodreads.com/user/show/7705297-saienia
 URL_grs = chromium-browser http://www.goodreads.com/search?&q='%s'
 URL_bk = chromium-browser http://www.booko.com.au/books/search?&q='%s'
+URL_bsa = chromium-browser http://www.goodreads.com/search?&q='%s' http://www.bookdepository.co.uk/search?searchTerm='%s' http://www.booko.com.au/books/search?&q='%s' #BookSearchAll
+URL_dwa = chromium-browser http://www.bom.gov.au/nsw/forecasts/dubbo.shtml http://reg.bom.gov.au/products/IDN60801/IDN60801.95719.shtml http://www.bom.gov.au/products/IDR691.loop.shtml#skip #DubboWeatherAll
 
-
-
-URL_home = nautilus %s
+URL_home = nautilus /home/saienia
 URL_go = /usr/games/quarry
 URL_vv = /usr/bin/gnome-volume-control
 URL_im = /usr/bin/empathy
@@ -77,4 +77,4 @@ EXT:doc,rtf = AbiWord %s
 EXT:txt,cc,cpp,h,java,html,htm,epl,tex,latex,js,css,xml,xsl,am = vim %s
 EXT:ps = gv %s
 EXT:pdf = xpdf %s
-EXT:png,jpg,jpeg,gif = Gimp %s
+EXT:png,jpg,jpeg,gif = gimp %s
