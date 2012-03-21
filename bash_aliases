@@ -42,3 +42,5 @@ echo "
 }
 
 alias tmux='tmux -2'
+alias cd..='cd ..'
+alias mip='curl -s canhazip.com | grep '^[0-9].[0-9].[0-9].[0-9]''
