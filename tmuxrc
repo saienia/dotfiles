@@ -5,6 +5,7 @@ unbind %
 bind | split-window -h # split window horiztonally
 bind - split-window -v # split window vertically
 
+bind-key C-a last-window
 
 #### COLOUR
 
