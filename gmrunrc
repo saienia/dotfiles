@@ -56,6 +56,14 @@ URL_bk = chromium-browser http://www.booko.com.au/books/search?&q='%s'
 URL_bsa = chromium-browser http://www.goodreads.com/search?&q='%s' http://www.bookdepository.co.uk/search?searchTerm='%s' http://www.booko.com.au/books/search?&q='%s' #BookSearchAll
 URL_dwa = chromium-browser http://www.bom.gov.au/nsw/forecasts/dubbo.shtml http://reg.bom.gov.au/products/IDN60801/IDN60801.95719.shtml http://www.bom.gov.au/products/IDR691.loop.shtml#skip #DubboWeatherAll
 
+URL_gs.ms = chromium-browser http://milsims.com.au/search/node/'%s'
+URL_gs.aa = chromium-browser http://allaboutgames.com.au/search.php?search_query='%s' 
+URL_gs.gp = chromium-browser http://www.gamesparadise.com.au/catalogsearch/result/?q='%s'
+URL_gs.un = chromium-browser http://unhalfbricking.com/search.php 
+URL_gs.ge = chromium-browser http://www.gamesempire.com.au/index.php?searchStr='%s'&_a=viewCat&Submit=Go
+URL_gsa = chromium-browser http://www.gamesempire.com.au/index.php?searchStr='%s'&_a=viewCat&Submit=Go http://www.gamesparadise.com.au/catalogsearch/result/?q='%s' http://allaboutgames.com.au/search.php?search_query='%s' http://milsims.com.au/search/node/'%s'
+
+
 URL_home = nautilus /home/saienia
 URL_go = /usr/games/quarry
 URL_vv = /usr/bin/gnome-volume-control
