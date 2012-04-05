@@ -1,1 +1,5 @@
-/home/saienia/bin/dzconky
+#!/bin/bash 
+FG='#FFFFFF'
+BG='#1B1D1E'
+FONT='-*-terminus-*-r-normal-*-*-120-*-*-*-*-iso8859-*'
+conky | dzen2 -e - -y '1000' -h '16' -w '1920' -ta r -fg $FG -bg $BG -fn $FONT &
