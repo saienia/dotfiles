@@ -1,0 +1,16 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 5.0
+total_run_times 0
+use_spacer none
+
+TEXT
+
+^fg(\#666633)^i(/home/saienia/.dzen/xbm8x8/phones.xbm) ^fg(\#666666)$mpd_status $mpd_smart ^fg(\#FFFFFF)^fg(\#666633)^i(/home/saienia/.dzen/xbm8x8/mail.xbm) ^fg(\#FF6600)${execi 1800 ~/bin/gmailc} ^fg(\#666666)${loadavg 1 2 3} ^fg(\#666633)^i(/home/saienia/.dzen/xbm8x8/wifi_01.xbm) ^fg(\#00CC00)${execi 300 sudo iwconfig wlan0 | grep 'Signal level' | cut -d= -f3 | awk '{print 100+$1 "%"}'} ^fg(\#666666)${exec sudo iwgetid | cut -d\" -f2 | awk '{print  $1}'} ^fg(\#666633)^i(/home/saienia/.dzen/xbm8x8/temp.xbm) ^fg(\#FFFF00)${execi 1800  weather -i YSDU | grep 'Temperature:' | cut -d\( -f2 | awk '{print $1}'}c ^fg(\#666666)${time %a %b %d %I:%M%P}
+
+
+#^fg(\#666633)^i(/home/saienia/.dzen/xbm8x8/phones.xbm) ^fg(\#666666)$mpd_smart ^fg(\#FFFFFF)^i(/home/saienia/.dzen/xbm8x8/mail.xbm) ^fg(\#FFFFFF)${execpi 1800 ~/bin/gmailc} ^fg(\#CCCCFF)${loadavg 1 2 3}^fg(\#FFFFFF) ^i(/home/saienia/.dzen/xbm8x8/wifi_01.xbm) ^fg(\#FFCC00)${execpi 300 sudo iwconfig wlan0 | grep 'Signal level' | cut -d= -f3 | awk '{print 100+$1 "%"}'} ^fg(\#ffffff)${exec sudo iwgetid | cut -d\" -f2 | awk '{print  $1}'} ^fg(\#99cc33)${downspeed wlan0}k/s ^fg(\#FFFFFF)^i(/home/saienia/.dzen/xbm8x8/net_down_03.xbm) ^fg(\#ff3300)${upspeed wlan0}k/s ^fg(\#FFFFFF)^i(/home/saienia/.dzen/xbm8x8/net_up_03.xbm) ^i(/home/saienia/.dzen/xbm8x8/temp.xbm) ^fg(\#99FFCC)${execpi 1800  weather -i YSDU | grep 'Temperature:' | cut -d\( -f2 | awk '{print $1}'}c ^fg()${time %a %b %d %I:%M%P}
+
+
+
